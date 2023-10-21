@@ -1,0 +1,32 @@
+create a student registration form in html for an educational website which includes (10 marks)
+
+    personal details 
+
+          name first middle last
+          dob using calender
+          gender using drop down menu
+          mobile no. numeric digits only 10 digit only
+          address variable length
+          fathers name 
+          mothers name first middle last
+          fathers occupation
+          fathers mobile numbers
+          mothers occupation 
+          mothers mobile numbers
+
+    education details
+
+          metriculation school name 
+          board of education dropdown
+          percentage/cgpa
+          marks
+
+        12th school details
+        board
+        percentage
+        marks
+
+        graduation details 
+        college name 
+        year of passing 
+        course

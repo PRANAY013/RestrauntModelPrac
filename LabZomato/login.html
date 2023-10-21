@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/7e1e4b2f87.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+</head>
+<style>
+    *{
+        box-sizing:border-box;
+
+    }
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 425px;
+    color: #555;
+    background:#ecf0f3;
+}
+
+.login{
+    width: 430px;
+    padding: 30px;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+    -13px -13px 20px #ffffff;
+}
+.logo{
+    background: url("./Zomato_logo.png");
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 0px 0px 2px #5f5f5f,
+    0px 0px 0px 2px #ecf0f3,
+    8px 8px 15px #a7aaaf,
+    -8px -8px -15px #ffffff;
+}
+.fields{
+    width: 100%;
+    padding: 50px 5px 5px 5px;
+}
+.fields input{
+    border: none;
+    outline: none;
+    background: 14px;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+}
+.fields .username,.password{
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+    inset -8px -8px 8px #ffffff;   
+}
+.signin{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    box-shadow: 3px 3px 8px #b1b1b1,
+    -3px -3px 8px #ffffff;
+    background: #24cfaa;
+    transition: 0.5s;
+}
+
+.signin.hover{
+    background-color: #2fdbb6;
+}
+
+.signin.active{
+    background: #1da88a;
+}
+
+.link{
+    padding-top: 20px;
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: #aaa;
+    font-size: 15px;
+}
+.fields i{
+    height: 22px;
+    margin: 0px 10px -5px 25px;
+}
+.title{
+    text-align: center;
+    font-size: 28px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+}
+.subtitle{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 2px;
+}
+</style>
+<body>
+    <div class="login">
+        <div class="logo"></div>
+        <div class="title">Log In</div>
+        <div class="subtitle">We serve you the best food</div>
+        <div class="fields">
+            <form action="#">
+                <div class="username">
+                    <i class="fa-regular fa-envelope"></i><input type="email" class="userinput" placeholder="Enter Email">
+                </div>
+                <div class="password">
+                    <i class="fa-solid fa-lock"></i><input type="password" class="passinput" placeholder="Password">
+                </div>
+                
+
+            </form>
+        </div>
+        <button class="signin">Login</button>
+        <div class="link">
+            <a href="#">Forgot Password</a> or <a href="#">Sign Up</a>
+        </div>
+    </div>
+</body>
+</html>
